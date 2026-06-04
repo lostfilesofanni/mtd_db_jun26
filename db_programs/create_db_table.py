@@ -37,7 +37,8 @@ def create_table():
         print('Error while creating table: e', e)
 
 create_db()
-create_t
+create_table()
+
 
 
 
