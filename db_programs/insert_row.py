@@ -1,7 +1,7 @@
 import pymysql
 import db_connect2 as dbc
 
-def insert_row():
+def insert_employees():
     query = 'insert into employees(id, name, designation, salary, phone) values(23, "Ananya", "Software Engineer", 75000, 9876543210)'
     try:
         connection = dbc.db_connect()
@@ -18,4 +18,4 @@ def insert_row():
     except Exception as e:
         print('Error while inserting row: e', e)
 
-insert_row()
+insert_employees()
