@@ -42,5 +42,4 @@ create_table()
 
 
 
-
         #query = 'create table if not exists employees(id int primary key auto_increment, name varchar(255) not null, age int, department varchar(255), designation varchar(255), salary float, commission float default 0, years_of_experience tinyint, phone bigint unique)'
